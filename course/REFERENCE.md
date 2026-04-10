@@ -42,6 +42,7 @@ PRODUCTION — voice and TTS rules.
 - ElevenLabs voice clone: narration (all module voiceover).
 - Nick's live voice: demos only (screen recording walkthroughs).
 - All narration scripts written for TTS: unambiguous pronunciations, punctuation as pacing, no filler, no ambiguous acronyms without context on first use.
+- Pop culture references: movies and TV shows used as teaching analogies throughout. These are recognition anchors — the student hears something they know and wires the concept to existing memory. References should feel natural to WorkflowOS voice (builder-to-builder, not "as the great philosopher Yoda once said"). Clip-friendly: written so short scenes can be cut into the video alongside narration.
 
 MODULE 2 — 1M context rewrite.
 
@@ -75,6 +76,30 @@ SALES / POSITIONING — mastery, not outcomes.
 - Sales page must include a "who this is NOT for" section near the bottom. Honest, no mercy. Buyers who self-exclude here don't refund.
 - No refund policy. Mastery courses with clear "not for" sections have low refund rates; a policy invites friction at the $97 price point without changing the purchase decision meaningfully. The clarity of the "not for" section replaces the refund as the buyer's trust signal.
 - Tone benchmark reinforcement: Huberman-style mechanism-first content. Rigor in the promise, accessibility in the delivery, outcomes implied but never explicitly promised.
+
+PEDAGOGICAL FRAMEWORK — five-phase module structure.
+
+Locked 2026-04-10. All modules use the five-phase framework defined in the course-script-writer skill. Phases: HOOK → MECHANISM → DEMONSTRATION → APPLICATION → SYNTHESIS. Four module variants: standard, nested-loop (Module 4), feature-tour (Module 5), capstone (Module 7). Module 1 uses standard with a comparison demo for Constitutional AI.
+
+Key constraints:
+- Total video per module: 25-45 min (standard), up to 60 min (nested-loop)
+- Individual segments: 5-12 min max before checkpoint or mode switch
+- Mechanism section: 30-40% of module time, never more than 15 min
+- Application tasks: completable in under 10 min, produce visible result, degrade gracefully
+- Each synthesis includes a testable capability statement
+- Hook variants rotate across modules (confession, provocation, failed prompt)
+- Module bridges connect to prior module's takeaway (Module 1 skips)
+
+Module variant assignments:
+- Module 1 (Constitutional AI): Standard, comparison demo
+- Module 2 (Context window): Standard
+- Module 3 (Model selection): Standard
+- Module 4 (DEFINE → GATE → BUILD → CHECK): Nested-loop, four inner cycles
+- Module 5 (Claude features): Feature-tour, cap at 5-6 features with full treatment
+- Module 6 (Debugging): Standard
+- Module 7 (Capstone): Capstone variant, integration + handoff to vault bonus
+
+Teaching style: Huberman-adapted mechanism-first pedagogy, compressed for screen-based self-paced learners. Full research and rationale in course-script-writer skill's references/PEDAGOGY.md.
 
 MODULE 6 — 41.8% stat correction.
 
